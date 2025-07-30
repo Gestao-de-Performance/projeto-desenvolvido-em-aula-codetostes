@@ -9,5 +9,4 @@
 ## Aula 2
     - TDB
 
-### Professor:
-    - Mago
+### Professor: Mago
