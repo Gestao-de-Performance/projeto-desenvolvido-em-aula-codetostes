@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cor-objetos-menu: #5A13B4;
+    --cor-objetos-menu-opaco: rgba(89, 19, 180, 0.3);
+    --cor-titulo-sub-texto: #3B1270;
+    --cor-titulo-sub-texto-opaco: rgba(59, 18, 112, 0.7);
+
+
+    --cor-transparente: transparent;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+}
+
+.margin-site{
+    margin: 0 10%;
+}
+
+.espaco-interno{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-end{
+    align-items: end;
+}
+
+.gap30{
+    gap: 30%;
+}
+
+.gap15{
+    gap: 15%;
+}
+
+.gap5{
+    gap: 5%;
+}
+
+.ContainerGraduacaoBlog{
+    text-decoration: none;
+}
+
+h1, h2, p{
+    color: var(--cor-titulo-sub-texto);
+}
+
+/*HEADER*/
+nav{
+    margin: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form{
+    border: solid 1px;
+    border-color: var(--cor-objetos-menu-opaco);
+    background-color: transparent;
+    white-space: nowrap;
+}
+
+form input{
+    border: none;
+}
+
+input::placeholder{
+    color: var(--cor-objetos-menu-opaco);
+}
+
+form button{
+    border: none;
+    background-color: transparent;
+}
+
+.BotaoAmbienteVirtual{
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--cor-objetos-menu);
+}
+/*FIM HEADER*/
+
+/*MAIN*/
+
+h1{
+    font-size: 15px;
+    opacity: 70%;
+}
+
+h2{
+    font-size: 65px;
+    font-weight: normal;
+}
+
+main img{
+    width: 30px;
+    height: auto;
+}
+
+p{
+    opacity: 70%;
+}
+
+/*FIM MAIN*/
