@@ -16,8 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Cabin", sans-serif;
-}
+    }
 
 .margin-site{
     margin: 0 10%;
@@ -49,12 +48,14 @@
     gap: 5%;
 }
 
-.ContainerGraduacaoBlog{
-    text-decoration: none;
-}
+
 
 h1, h2, p{
     color: var(--cor-titulo-sub-texto);
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
 }
 
 /*HEADER*/
@@ -88,6 +89,11 @@ form button{
     white-space: nowrap;
     text-decoration: none;
     color: var(--cor-objetos-menu);
+    
+}
+
+.ContainerGraduacaoBlog a{
+    text-decoration: none;
 }
 /*FIM HEADER*/
 
@@ -103,13 +109,18 @@ h2{
     font-weight: normal;
 }
 
-main img{
+.setaSeparador{
     width: 30px;
     height: auto;
 }
 
 p{
     opacity: 70%;
+}
+
+.imagemPersonagem{
+    width: 35vw;
+    height: auto;
 }
 
 /*FIM MAIN*/
